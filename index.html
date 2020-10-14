@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterMind</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="playground">
+        <div class="lineValidation">
+            <button id="validationButton">Soumettre le code</button>
+
+        </div>
+
+        <div class="linesButtons">
+            <button data-color="blue" class="circleButton circleBlue"></button>
+            <button data-color="yellow" class="circleButton circleYellow"></button>
+            <button data-color="red" class="circleButton circleRed"></button>
+            <button data-color="green" class="circleButton circleGreen"></button>
+            <button class="clearButton">C</button>
+        </div>
+
+        <div class="lines current" id="line1">
+            <div class="colorButtons">
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+            </div>
+
+            <div class="correctionCircles">
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+            </div>
+        </div>
+        <div class="lines empty" id="line2">
+            <div class="colorButtons">
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+            </div>
+
+            <div class="correctionCircles">
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+            </div>
+        </div>
+        <div class="lines empty" id="line3">
+            <div class="colorButtons">
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+            </div>
+
+            <div class="correctionCircles">
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+            </div>
+        </div>
+        <div class="lines empty" id="line4">
+            <div class="colorButtons">
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+            </div>
+
+            <div class="correctionCircles">
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+            </div>
+        </div>
+        <div class="lines empty" id="line5">
+            <div class="colorButtons">
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+            </div>
+
+            <div class="correctionCircles">
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+            </div>
+        </div>
+        <div class="lines empty" id="line6">
+            <div class="colorButtons">
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+            </div>
+
+            <div class="correctionCircles">
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+            </div>
+        </div>
+        <div class="lines empty" id="line7">
+            <div class="colorButtons">
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+            </div>
+
+            <div class="correctionCircles">
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+            </div>
+        </div>
+        <div class="lines empty" id="line8">
+            <div class="colorButtons">
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+            </div>
+
+            <div class="correctionCircles">
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+            </div>
+        </div>
+        <div class="lines empty" id="line9">
+            <div class="colorButtons">
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+            </div>
+
+            <div class="correctionCircles">
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+            </div>
+        </div>
+        <div class="lines empty" id="line10">
+            <div class="colorButtons">
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+                <div class="circle transparent"></div>
+            </div>
+
+            <div class="correctionCircles">
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+                <div class="smallCircle"></div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+<script src="mastermind.js"></script>
+<script src="game.js"></script>
+
+</html>

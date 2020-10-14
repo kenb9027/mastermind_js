@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;  
+}
+
+.playground{
+    display:flex;
+    flex-direction: column-reverse;
+    
+    border-radius: 10px;
+    border: black 2px solid;
+    background-color: rgb(58, 58, 58);
+    padding: 10px;
+
+}
+
+.lines {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.colorButtons{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.correctionCircles{
+    display: flex;
+}
+
+.circle {
+margin: 2px;
+
+height:40px;
+width:40px;
+border-radius: 50%;
+border: black 1px solid;
+
+}
+
+.smallCircle {
+margin: 1px;
+
+height:18px;
+width:18px;
+border-radius: 50%;
+
+background-color: rgb(0, 0, 0, 0.9);
+}
+
+
+button {
+    cursor: pointer;
+}
+
+.linesButtons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    border-top: black 2px solid;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.circleButton {
+    margin: 3px;
+
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    border: black 2px solid;   
+    box-shadow: black 2px 2px;
+}
+
+.lineValidation {
+    display: flex;
+    justify-content: center;
+
+    margin: 5px;
+    margin-top: 8px;
+}
+
+#validationButton {
+
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    border-radius: 5px;
+    background-color: transparent;
+    
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: rgb(255, 255, 255) 1px dashed;
+    color: white;
+    box-shadow: black 1px 1px;
+}
+
+.clearButton {
+    margin-left: 15px;
+    padding: 10px 15px;
+
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: rgb(255, 255, 255) 1px solid;
+    color: white;
+    box-shadow: black 2px 2px;
+}
+
+.present {
+    background-color: rgb(236, 236, 236);
+}
+
+.correct {
+    background-color: rgb(19, 228, 0);
+}
+
+.transparent{
+    background-color: transparent ;
+}
+
+.circleBlue {
+    background-color: rgb(16, 16, 167);
+}
+.circleYellow {
+    background-color: rgb(241, 238, 57);
+}
+.circleRed {
+    background-color: rgb(204, 12, 12);
+}
+.circleGreen {
+    background-color: rgb(18, 139, 38);
+}
